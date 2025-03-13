@@ -6,6 +6,9 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const SwiperMain = () => {
+    const btnClick = () => {
+        console.log(111);
+    };
     return (
         <div className={styles.mainslide}>
             <Swiper
@@ -22,8 +25,9 @@ const SwiperMain = () => {
                 <SwiperSlide><img src="main_slide03.jpg" /></SwiperSlide>
                 <SwiperSlide><img src="main_slide04.jpg" /></SwiperSlide>
                 <SwiperSlide><img src="main_slide05.jpg" /></SwiperSlide>
+                <button className={styles['play-btn']} onClick={btnClick}>play</button>
             </Swiper>
-    
+        
         </div>
     );
 }

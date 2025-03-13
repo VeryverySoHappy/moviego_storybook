@@ -13,7 +13,7 @@ const meta = {
   argTypes: {
     imgUrl: {}
   },
-  args: { onClick: fn() },
+  args: {},
 } satisfies Meta<typeof SwiperMain>;
 
 export default meta;
