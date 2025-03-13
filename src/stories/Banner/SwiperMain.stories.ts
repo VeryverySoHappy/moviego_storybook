@@ -19,29 +19,9 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
+export const Default: Story = {
   args: {
-    primary: true,
-    label: 'SwiperMain',
+
   },
 };
 
-export const Secondary: Story = {
-  args: {
-    label: 'SwiperMain',
-  },
-};
-
-export const Large: Story = {
-  args: {
-    size: 'large',
-    label: 'SwiperMain',
-  },
-};
-
-export const Small: Story = {
-  args: {
-    size: 'small',
-    label: 'SwiperMain',
-  },
-};
