@@ -1,0 +1,26 @@
+.mainslide {
+    width: 100%;
+  
+    :global {
+        .swiper-wrapper{
+            width: 100%;
+        }
+        .swiper-slide{
+            position: relative;
+            color: #fff;
+            background-color: #000;
+            opacity: 0.5;
+            width: 460px;
+            height: 650px;
+            overflow: hidden;
+            transition: all .05s ease;
+        }
+        .swiper-slide-active{
+            opacity: 1;
+        }
+        .swiper{
+            width: 100%; max-width: 1200px; padding:30px 0 70px; 
+        }
+    }
+    
+}
