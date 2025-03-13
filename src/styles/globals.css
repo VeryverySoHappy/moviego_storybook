@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  font-family: 'Inter Variable', 'Noto Sans KR Variable', 'Noto Sans Variable', sans-serif;
   --background: #ffffff;
   --foreground: #171717;
 }
